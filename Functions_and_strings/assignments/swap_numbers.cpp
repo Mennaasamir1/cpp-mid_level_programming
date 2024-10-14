@@ -4,7 +4,7 @@
  * @num1: first number
  * @num2: second number
  */
-void Swap_numbers(short num1, short num2)
+void Swap_numbers(short &num1, short &num2)
 {
     short temp;
 

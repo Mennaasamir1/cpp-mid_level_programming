@@ -13,7 +13,7 @@ void SumProcedure(void);
 short SumFunction(short, short);
 void helloWorld(void);
 void Your_name(void);
-void Swap_numbers(short, short);
+void Swap_numbers(short &num1, short &num2);
 float CalcArea(float height, float width);
 float CalcArea_diagonal(float side, float d);
 float calcCircleArea(float radius);
